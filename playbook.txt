@@ -1,0 +1,46 @@
+RIVERTECH ASSESSMENT PLAYBOOK
+
+Assessment notes and how-tos.
+
+
+
+1. PREMISES
+
+Due to the amount of time I have spent to setup the different containers, the
+work is incomplete. A brief desrption how what has been delivered:
+- Docker:	the reuqested containers have been created. I have found some examples
+			and I have customized them and make them work together. A real
+			challenge.
+- NiFi:		done and tested. Files are loaded into Kafka.
+- KSql:		I did not manage to rn the scripts and read data from Kafka and import 
+			them into the database. I wrote the scripts (and the curl commands) in
+			the way I think they should have worked.
+- Service:	not done at all.
+
+
+
+2. RUN THE CONTAINERS
+
+To run the containers, load the CSV files the following file must be launched:
+run_dock-compose.sh (./run_dock_compose).
+
+
+
+3. NiFi
+
+The XML file in the project is also stored in the NiFi container at:
+/opt/nifi/scripts
+
+
+
+4. KSql
+
+The curl commands have been perhaps are using an incorrect address.
+I did notfindthe way to ake sure that is the right address.
+
+
+
+5. Microservice
+
+I just went to that theoretically.
+I consume all the time on the other tasks.
